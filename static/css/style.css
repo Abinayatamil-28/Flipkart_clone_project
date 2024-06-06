@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: "EB Garamond", serif;
+}
+
+a{
+    text-decoration: none;
+}
+.carousel-item img {
+    object-fit: cover; /* Ensure the entire carousel item is covered */
+    object-position: center top; /* Adjust to position the content at the top */
+    height: 550px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.old_price{
+    font-weight: bold;
+    color:red
+}
+
+.new_price{
+    font-weight: bold;
+    background-color: green;
+    color:white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+.hot {
+    background-color: rgb(248, 4, 4);
+    color: white;
+    font-weight: bold;
+    
+}
